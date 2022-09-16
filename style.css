@@ -16,6 +16,10 @@ body{
 * ! style rules for form sections
 **/
 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
     max-width: 400px;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
     padding: 50px;
@@ -50,9 +54,38 @@ form div {
 input:focus{
     border: 2px solid #f2796f ;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+}
 
 /**
-*! style rules for social section 
+* ! style rules for content sections
+**/
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f2796e;
+    width: 55%;
+    min-height: 100vh;
+    padding: 10px 20px;
+}
+.image{
+    background-image: url(./images/illustration.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 2px solid black;
+    height: 65%;
+}
+.text {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+/**
+* ! style rules for form sections
 **/
 .btn{
     display: flex;
@@ -140,3 +173,8 @@ button:hover{
 /**
 * ! Media querries are here
 **/
+@media (max-width:900px){
+    .container{
+        flex-direction: column;
+    }
+}
