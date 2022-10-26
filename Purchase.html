@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="Purchase.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+        <form action="dash.html">
+            <div class="input-container">
+                <label for="Name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your full name" class="notValid">
+            </div>
+            <div class="input-container">
+                <label for="nin">National ID</label>
+                <input type="text" id="NIN" placeholder="Enter your National ID" class="notValid" />
+            </div>
+            <div class="input-container">
+                <label for="mobile">Mobile number</label>
+                <input type="text" id="Mobile" placeholder="Enter your mobile number" class="notValid"/>
+            </div>
+            <div class="input-container">
+                <label for="period">Date</label>
+                <input type="Date" id="Period" placeholder="Enter the Date" class="notValid"/>
+            </div>
+            <div class="input-container">
+                <label for="dueAmount">Amount Due</label>
+                <input type="number" id="DueAmount" placeholder="Enter the Amount Due" class="notValid" />
+            </div>
+            <div class="input-container">
+                <label for="salesAgent">Sales Agent's Name</label>
+                <input type="text" id="SalesAgent" placeholder="Enter name of Sales Agent" class="notValid"/>
+            </div>
+            <div class="input-container">
+                <label for="dueDate">Due Date</label>
+                <input type="date" id="DueDate" placeholder="Enter the Due Date" />
+            </div>
+            <div class="input-container">
+                <label for="produceName">Produce Name</label>
+                <input type="text" id="ProduceName" placeholder="Enter the ProduceName" class="notValid"/>
+            </div>
+            <div class="input-container">
+                <label for="producetype">Produce Type</label>
+                <input type="text" id="ProduceType" placeholder="Enter your type of produce" class="notValid"/>
+            </div>
+            <div class="input-container">
+                <label for="tonnage">Tonnage</label>
+                <input type="number" id="Tonnage" placeholder="Enter Tonnage" class="notValid"/>
+            </div>
+            <div class="input-container">
+                <label for="dispatch">Date of Dispatch</label>
+                <input type="date" id="Dispatch" placeholder="Enter Date of Dispatch" />
+            </div>
+            <input type="submit" value="submit" class="btn red" id="submitBtn"/>
+        </form>
+    </div>
+    <script src="Purchase.js"></script>
+    
+</body>
+</html>

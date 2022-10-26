@@ -1,0 +1,10 @@
+body{
+    background-color: grey;
+}
+.card-body{
+    color: aqua;
+    size: 40px;
+}
+.navbar-brand{
+    color: green;
+}

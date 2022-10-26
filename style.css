@@ -67,18 +67,18 @@ input:focus{
     flex-direction: column;
     justify-content: space-around;
     background-color: #f2796e;
-    width: 55%;
+    width: 45%;
     min-height: 100vh;
     padding: 10px 20px;
 }
-.image{
-    background-image: url(./images/illustration.svg);
+/**.image{
+    background-image: url(./images/corn1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     border: 2px solid black;
     height: 65%;
-}
+}--*/
 .text {
     text-align: center;
     color: white;
